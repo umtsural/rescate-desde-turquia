@@ -152,3 +152,7 @@ img{max-width:100%}
 html[lang="es"] .lang-es,html[lang="en"] .lang-en{font-weight:700;opacity:1;text-decoration:underline;text-underline-offset:4px}
 .skip-link{position:absolute;left:-9999px;top:8px;z-index:100;padding:12px 18px;border-radius:100px;background:#FFCB56;color:#1F3B4D}
 .skip-link:focus{left:16px}
+
+/* Give the Stories hero the same generous first-screen presence as the other pages. */
+@media (min-width: 901px){.stories-hero{height:clamp(760px,62vw,980px)!important}}
+@media (max-width: 900px){.stories-hero{height:88svh!important;min-height:700px!important;max-height:840px!important}}
