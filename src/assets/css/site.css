@@ -19,14 +19,17 @@ a{color:#1F3B4D}a:hover{color:#10242F}
 .help-band-overlay{height:68%!important;background:linear-gradient(180deg,rgba(250,248,242,0) 0%,rgba(250,248,242,.2) 38%,rgba(250,248,242,.82) 59%,rgba(250,248,242,.82) 100%)!important}
 .help-band>div:not(.help-band-overlay){padding:12px 20px 0}
 .help-band>div:last-child{padding-bottom:10px!important}
-.stories-hero{height:auto!important;min-height:0!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;padding:0 0 8px!important;background:#FAF8F2!important}
-.stories-hero>.ph-img{position:relative!important;inset:auto!important;width:100%;aspect-ratio:4/3}
-.stories-hero>.ph-img>img{object-position:center 10%!important}
+.stories-hero{height:82svh!important;min-height:620px!important;max-height:780px!important;display:flex!important;flex-direction:column!important;justify-content:flex-end!important;align-items:stretch!important;padding:132px 20px 34px!important;background:#1F3B4D!important}
+.stories-hero>.ph-img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;aspect-ratio:auto!important}
+.stories-hero>.ph-img>picture{position:absolute!important;inset:0!important;display:block!important;width:100%!important;height:100%!important}
+.stories-hero>.ph-img>picture>img{object-position:center center!important}
 #inicio{height:auto!important;aspect-ratio:4/5;min-height:480px}
 .main-hero-img.kb{display:none!important}
 .main-hero-mob.kb{display:block!important}
-.stories-hero>div[aria-hidden="true"]{display:none!important}
-.stories-hero>div:last-child{position:relative!important;width:100%;max-width:none!important;padding:28px 20px 0;color:#1F3B4D!important}
+.stories-hero>div[aria-hidden="true"]{display:block!important;z-index:1!important;background:linear-gradient(180deg,rgba(16,36,47,.04) 0%,rgba(16,36,47,.02) 34%,rgba(16,36,47,.44) 58%,rgba(16,36,47,.9) 100%)!important}
+.stories-hero>div:last-child{position:relative!important;z-index:2!important;width:100%;max-width:760px!important;padding:0!important;margin-top:auto!important;gap:14px!important;color:#FAF8F2!important}
+.stories-hero>div:last-child h1{font-size:clamp(42px,10.5vw,62px)!important;line-height:.96!important}
+.stories-hero>div:last-child p:last-child{font-size:16px!important;line-height:1.5!important}
 .foot{gap:20px!important}
 .foot nav{flex-direction:row!important;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 16px!important}
 .foot nav>p{width:100%;margin:0 0 2px!important}
