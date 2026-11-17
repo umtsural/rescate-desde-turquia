@@ -213,7 +213,7 @@ for (const lang of LANGS) {
       '<link rel="preconnect" href="https://fonts.googleapis.com">',
       '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
       `<link rel="stylesheet" href="${fonts}">`,
-      '<link rel="stylesheet" href="../assets/css/site.css?v=home-hero-2">',
+      '<link rel="stylesheet" href="../assets/css/site.css?v=home-hero-3">',
       '<script src="../assets/js/config.js" defer></script>',
       '<script src="../assets/js/main.js" defer></script>',
     ].join('\n');
