@@ -177,3 +177,7 @@ html[lang="es"] .lang-es,html[lang="en"] .lang-en{font-weight:700;opacity:1;text
 #inicio h2{font-size:clamp(16px,4.6vw,19px)!important;line-height:1.4!important}
 #inicio>.by{margin:0!important;align-self:flex-start!important}
 }
+
+@media (max-width: 900px){
+  #inicio + #nosotros{margin-top:40px}
+}
