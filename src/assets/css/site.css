@@ -185,5 +185,5 @@ html[lang="es"] .lang-es,html[lang="en"] .lang-en{font-weight:700;opacity:1;text
 @media (max-width: 900px){
   #inicio{position:relative;isolation:isolate}
   #inicio>div[aria-hidden="true"]{height:100%!important;background:linear-gradient(180deg,transparent 52%,rgba(16,36,47,.48) 69%,#10242f 100%)!important}
-  #inicio>div:last-child{background:transparent!important;margin-top:-40vw!important;padding-top:0!important;justify-content:flex-end!important}
+  #inicio>div:last-child{background:transparent!important;margin-top:-80vw!important;padding-top:0!important;justify-content:flex-end!important}
 }
