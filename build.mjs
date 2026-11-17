@@ -230,8 +230,19 @@ writeFileSync(join(dist, 'index.html'), `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${SITE_NAME}</title>
+<title>${esc(pages[0].title.es)}</title>
 <meta name="description" content="${esc(pages[0].description.es)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${SITE_NAME}">
+<meta property="og:title" content="${esc(pages[0].title.es)}">
+<meta property="og:description" content="${esc(pages[0].description.es)}">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="${siteUrl ? siteUrl + '/es/' : ''}">
+<meta property="og:image" content="${siteUrl ? siteUrl + '/' + pages[0].image : ''}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${siteUrl ? siteUrl + '/' + pages[0].image : ''}">
 <meta http-equiv="refresh" content="0; url=es/">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 ${siteUrl ? `<link rel="canonical" href="${siteUrl}/es/">\n` + LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${siteUrl}/${l}/">`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${siteUrl}/es/">` : ''}
