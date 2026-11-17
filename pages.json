@@ -1,0 +1,313 @@
+{
+ "fonts": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&amp;display=swap",
+ "pages": [
+  {
+   "template": "index.html",
+   "output": "index.html",
+   "article": null,
+   "title": {
+    "es": "Adopción de perros de Turquía en Barcelona | Rescate desde Turquía",
+    "en": "Adopt dogs from Türkiye in Barcelona | Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conectamos perros rescatados en Turquía con familias en Barcelona. Nos ocupamos de la salud, la documentación, el vuelo y el seguimiento de cada adopción.",
+    "en": "We connect dogs rescued in Türkiye with families in Barcelona. We take care of health, paperwork, the flight and the follow-up of every adoption."
+   },
+   "image": "assets/og/index.jpg",
+   "type": "page",
+   "parent": null
+  },
+  {
+   "template": "nosotros.html",
+   "output": "nosotros.html",
+   "article": null,
+   "title": {
+    "es": "Nosotros — Rescate desde Turquía",
+    "en": "About us — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Rescate desde Turquía conecta perros de refugios de Turquía con familias en Barcelona. Conoce nuestra misión y cómo trabajamos.",
+    "en": "Rescate desde Turquía connects dogs from shelters in Türkiye with families in Barcelona. Learn about our mission and how we work."
+   },
+   "image": "assets/og/nosotros.jpg",
+   "type": "page",
+   "parent": "index.html"
+  },
+  {
+   "template": "adoptar.html",
+   "output": "adoptar.html",
+   "article": null,
+   "title": {
+    "es": "Perros en adopción — Rescate desde Turquía",
+    "en": "Dogs for adoption — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Perros rescatados en Turquía que buscan familia en Barcelona. Conoce sus fichas y cómo funciona el proceso de adopción.",
+    "en": "Dogs rescued in Türkiye looking for a family in Barcelona. Browse their profiles and see how the adoption process works."
+   },
+   "image": "assets/og/adoptar.jpg",
+   "type": "page",
+   "parent": "index.html"
+  },
+  {
+   "template": "historias.html",
+   "output": "historias.html",
+   "article": null,
+   "title": {
+    "es": "Historias felices — Rescate desde Turquía",
+    "en": "Happy stories — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Historias de perros rescatados en Turquía que hoy viven felices con su familia en Barcelona.",
+    "en": "Stories of dogs rescued in Türkiye who now live happily with their families in Barcelona."
+   },
+   "image": "assets/og/historias.jpg",
+   "type": "page",
+   "parent": "index.html"
+  },
+  {
+   "template": "blog.html",
+   "output": "blog.html",
+   "article": null,
+   "title": {
+    "es": "Blog — Rescate desde Turquía",
+    "en": "Blog — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Guías y consejos para adoptar en Barcelona un perro rescatado en Turquía: proceso, test de la rabia, documentación y primeros días en casa.",
+    "en": "Guides and tips for adopting a dog rescued in Türkiye in Barcelona: the process, the rabies test, paperwork and the first days at home."
+   },
+   "image": "assets/og/blog.jpg",
+   "type": "page",
+   "parent": "index.html"
+  },
+  {
+   "template": "contacto.html",
+   "output": "contacto.html",
+   "article": null,
+   "title": {
+    "es": "Contacto — Rescate desde Turquía",
+    "en": "Contact — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Escríbenos para adoptar en Barcelona un perro rescatado en Turquía o para colaborar con Rescate desde Turquía.",
+    "en": "Write to us to adopt a dog rescued in Türkiye in Barcelona, or to help Rescate desde Turquía."
+   },
+   "image": "assets/og/contacto.jpg",
+   "type": "page",
+   "parent": "index.html"
+  },
+  {
+   "template": "blog-guia-adopcion.html",
+   "output": "blog-guia-adopcion.html",
+   "article": "blog-guia-adopcion.json",
+   "title": {
+    "es": "Cómo adoptar un perro de Turquía en Barcelona: guía paso a paso",
+    "en": "How to adopt a dog from Türkiye in Barcelona: a step-by-step guide"
+   },
+   "description": {
+    "es": "Guía paso a paso para adoptar en Barcelona un perro rescatado en Turquía: solicitud, salud, documentación, vuelo y seguimiento.",
+    "en": "A step-by-step guide to adopting a dog rescued in Türkiye in Barcelona: application, health, paperwork, flight and follow-up."
+   },
+   "image": "assets/og/blog-guia-adopcion.jpg",
+   "type": "article",
+   "datePublished": "2026-11-17",
+   "parent": "blog.html"
+  },
+  {
+   "template": "blog-test-rabia.html",
+   "output": "blog-test-rabia.html",
+   "article": "blog-test-rabia.json",
+   "title": {
+    "es": "Test de titulación de la rabia: qué es y por qué tarda 3 meses",
+    "en": "The rabies titration test: what it is and why it takes 3 months"
+   },
+   "description": {
+    "es": "Qué es el test de titulación de anticuerpos de la rabia, por qué lo necesitan los perros que viajan de Turquía a España y cuánto tiempo lleva.",
+    "en": "What the rabies antibody titration test is, why dogs travelling from Türkiye to Spain need it and how long it takes."
+   },
+   "image": "assets/og/blog-test-rabia.jpg",
+   "type": "article",
+   "datePublished": "2026-11-17",
+   "parent": "blog.html"
+  },
+  {
+   "template": "blog-salud-documentos.html",
+   "output": "blog-salud-documentos.html",
+   "article": "blog-salud-documentos.json",
+   "title": {
+    "es": "Microchip, vacunas, pasaporte y esterilización para viajar",
+    "en": "Microchip, vaccines, passport and neutering for travel"
+   },
+   "description": {
+    "es": "Los pasos de salud y documentación que preparamos antes de que un perro rescatado en Turquía vuele a Barcelona.",
+    "en": "The health and paperwork steps we complete before a dog rescued in Türkiye flies to Barcelona."
+   },
+   "image": "assets/og/blog-salud-documentos.jpg",
+   "type": "article",
+   "datePublished": "2026-11-17",
+   "parent": "blog.html"
+  },
+  {
+   "template": "blog-primeros-dias.html",
+   "output": "blog-primeros-dias.html",
+   "article": "blog-primeros-dias.json",
+   "title": {
+    "es": "Los primeros días en casa con tu perro adoptado: 7 consejos",
+    "en": "The first days at home with your adopted dog: 7 tips"
+   },
+   "description": {
+    "es": "Siete consejos para que los primeros días de tu perro adoptado en casa sean tranquilos y felices.",
+    "en": "Seven tips to make your adopted dog’s first days at home calm and happy."
+   },
+   "image": "assets/og/blog-primeros-dias.jpg",
+   "type": "article",
+   "datePublished": "2026-11-17",
+   "parent": "blog.html"
+  },
+  {
+   "template": "privacidad.html",
+   "output": "privacidad.html",
+   "article": "privacidad.json",
+   "title": {
+    "es": "Política de privacidad — Rescate desde Turquía",
+    "en": "Privacy policy — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Cómo trata Rescate desde Turquía los datos personales de los formularios de contacto y del boletín, y cuáles son tus derechos.",
+    "en": "How Rescate desde Turquía handles personal data from the contact and newsletter forms, and what your rights are."
+   },
+   "image": "assets/og/privacidad.jpg",
+   "type": "page",
+   "parent": "index.html"
+  },
+  {
+   "template": "aviso-legal.html",
+   "output": "aviso-legal.html",
+   "article": "aviso-legal.json",
+   "title": {
+    "es": "Aviso legal — Rescate desde Turquía",
+    "en": "Legal notice — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Aviso legal de la web de Rescate desde Turquía: titular, condiciones de uso y propiedad intelectual.",
+    "en": "Legal notice for the Rescate desde Turquía website: owner, terms of use and intellectual property."
+   },
+   "image": "assets/og/aviso-legal.jpg",
+   "type": "page",
+   "parent": "index.html"
+  },
+  {
+   "template": "bruno.html",
+   "output": "bruno.html",
+   "article": null,
+   "title": {
+    "es": "Bruno busca hogar — Rescate desde Turquía",
+    "en": "Bruno is looking for a home — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conoce a Bruno, un perro rescatado en Turquía que busca familia en Barcelona.",
+    "en": "Meet Bruno, a dog rescued in Türkiye looking for a family in Barcelona."
+   },
+   "image": "assets/og/bruno.jpg",
+   "type": "page",
+   "parent": "adoptar.html"
+  },
+  {
+   "template": "ayda.html",
+   "output": "ayda.html",
+   "article": null,
+   "title": {
+    "es": "Ayda busca hogar — Rescate desde Turquía",
+    "en": "Ayda is looking for a home — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conoce a Ayda, un perro rescatado en Turquía que busca familia en Barcelona.",
+    "en": "Meet Ayda, a dog rescued in Türkiye looking for a family in Barcelona."
+   },
+   "image": "assets/og/ayda.jpg",
+   "type": "page",
+   "parent": "adoptar.html"
+  },
+  {
+   "template": "maya.html",
+   "output": "maya.html",
+   "article": null,
+   "title": {
+    "es": "Maya busca hogar — Rescate desde Turquía",
+    "en": "Maya is looking for a home — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conoce a Maya, un perro rescatado en Turquía que busca familia en Barcelona.",
+    "en": "Meet Maya, a dog rescued in Türkiye looking for a family in Barcelona."
+   },
+   "image": "assets/og/maya.jpg",
+   "type": "page",
+   "parent": "adoptar.html"
+  },
+  {
+   "template": "charlie.html",
+   "output": "charlie.html",
+   "article": null,
+   "title": {
+    "es": "Charlie busca hogar — Rescate desde Turquía",
+    "en": "Charlie is looking for a home — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conoce a Charlie, un perro rescatado en Turquía que busca familia en Barcelona.",
+    "en": "Meet Charlie, a dog rescued in Türkiye looking for a family in Barcelona."
+   },
+   "image": "assets/og/charlie.jpg",
+   "type": "page",
+   "parent": "adoptar.html"
+  },
+  {
+   "template": "suzi.html",
+   "output": "suzi.html",
+   "article": null,
+   "title": {
+    "es": "Suzi busca hogar — Rescate desde Turquía",
+    "en": "Suzi is looking for a home — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conoce a Suzi, un perro rescatado en Turquía que busca familia en Barcelona.",
+    "en": "Meet Suzi, a dog rescued in Türkiye looking for a family in Barcelona."
+   },
+   "image": "assets/og/suzi.jpg",
+   "type": "page",
+   "parent": "adoptar.html"
+  },
+  {
+   "template": "thor.html",
+   "output": "thor.html",
+   "article": null,
+   "title": {
+    "es": "Thor busca hogar — Rescate desde Turquía",
+    "en": "Thor is looking for a home — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conoce a Thor, un perro rescatado en Turquía que busca familia en Barcelona.",
+    "en": "Meet Thor, a dog rescued in Türkiye looking for a family in Barcelona."
+   },
+   "image": "assets/og/thor.jpg",
+   "type": "page",
+   "parent": "adoptar.html"
+  },
+  {
+   "template": "zoren.html",
+   "output": "zoren.html",
+   "article": null,
+   "title": {
+    "es": "Zoren busca hogar — Rescate desde Turquía",
+    "en": "Zoren is looking for a home — Rescate desde Turquía"
+   },
+   "description": {
+    "es": "Conoce a Zoren, un perro rescatado en Turquía que busca familia en Barcelona.",
+    "en": "Meet Zoren, a dog rescued in Türkiye looking for a family in Barcelona."
+   },
+   "image": "assets/og/zoren.jpg",
+   "type": "page",
+   "parent": "adoptar.html"
+  }
+ ]
+}

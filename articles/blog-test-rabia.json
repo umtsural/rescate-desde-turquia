@@ -1,0 +1,34 @@
+{
+ "es": {
+  "x0": "Si vas a adoptar un perro de Turquía, oirás hablar mucho del «test de titulación». Es el paso que más tiempo lleva y uno de los más importantes para que tu perro pueda entrar legalmente en España.",
+  "x1": "¿Qué es el test de titulación?",
+  "x2": "Es un análisis de sangre que mide los anticuerpos contra la rabia que ha desarrollado el animal después de vacunarse. Sirve para confirmar que la vacuna ha funcionado. Para entrar en la UE, el resultado debe ser igual o superior a 0,5 UI/ml y el análisis tiene que hacerse en un laboratorio autorizado.",
+  "x3": "¿Por qué lo necesitan los perros de Turquía?",
+  "x4": "Turquía no está en la lista de países desde los que se puede entrar en la UE sin este análisis, porque allí la rabia sigue presente. Por eso, los perros que viajan desde Turquía a España necesitan el test, y España no concede excepciones.",
+  "x5": "Los plazos: 30 días y 3 meses",
+  "x6_0": "Primero se pone la vacuna de la rabia. El animal debe tener al menos 12 semanas.",
+  "x6_1": "La muestra de sangre se toma como mínimo 30 días después de la vacuna.",
+  "x6_2": "El animal solo puede entrar en la UE cuando han pasado 3 meses desde la extracción de sangre (no desde el resultado).",
+  "x7": "Por eso, un perro que viaja desde Turquía debe tener como mínimo unos 7 meses, y la preparación completa suele llevar al menos 3 o 4 meses.",
+  "x8": "¿Y si el resultado no es suficiente?",
+  "x9": "A veces, aunque el animal esté vacunado, el nivel de anticuerpos no llega al mínimo. En ese caso el veterinario vuelve a vacunar, se repite el análisis y el plazo de espera empieza de nuevo. No es lo habitual, pero conviene saberlo.",
+  "x10": "Cómo lo hacemos nosotros",
+  "x11": "Nos encargamos de la vacunación, la extracción de sangre, el envío al laboratorio y el registro del resultado en la documentación del perro. Te avisamos en cada paso para que sepas siempre en qué punto está tu futuro compañero."
+ },
+ "en": {
+  "x0": "If you are adopting a dog from Türkiye, you will hear a lot about the “titration test”. It is the step that takes the longest, and one of the most important for your dog to enter Spain legally.",
+  "x1": "What is the titration test?",
+  "x2": "It is a blood test that measures the rabies antibodies the animal has developed after being vaccinated. It confirms that the vaccine has worked. To enter the EU, the result must be 0.5 IU/ml or higher, and the test has to be done at an approved laboratory.",
+  "x3": "Why do dogs from Türkiye need it?",
+  "x4": "Türkiye is not on the list of countries from which pets can enter the EU without this test, because rabies is still present there. That is why dogs travelling from Türkiye to Spain need the test, and Spain does not grant exceptions.",
+  "x5": "The timeline: 30 days and 3 months",
+  "x6_0": "First comes the rabies vaccine. The animal must be at least 12 weeks old.",
+  "x6_1": "The blood sample is taken at least 30 days after the vaccine.",
+  "x6_2": "The animal can only enter the EU once 3 months have passed since the blood sample was taken (not since the result).",
+  "x7": "That is why a dog travelling from Türkiye must be at least about 7 months old, and the full preparation usually takes at least 3 to 4 months.",
+  "x8": "What if the result is too low?",
+  "x9": "Sometimes, even when the animal is vaccinated, the antibody level does not reach the minimum. In that case the vet vaccinates again, the test is repeated and the waiting period starts over. It is not common, but it is good to know.",
+  "x10": "How we handle it",
+  "x11": "We take care of the vaccination, the blood sample, sending it to the laboratory and recording the result in the dog’s documents. We let you know at every step so you always know where your future companion is in the process."
+ }
+}
