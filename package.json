@@ -1,0 +1,18 @@
+{
+  "name": "rescate-desde-turquia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web de Rescate desde Turquía: adopción en Barcelona de perros rescatados en Turquía (ES/EN).",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && serve dist -l 3000",
+    "preview": "serve dist -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
