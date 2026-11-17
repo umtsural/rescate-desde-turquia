@@ -156,3 +156,10 @@ html[lang="es"] .lang-es,html[lang="en"] .lang-en{font-weight:700;opacity:1;text
 /* Give the Stories hero the same generous first-screen presence as the other pages. */
 @media (min-width: 901px){.stories-hero{height:clamp(760px,62vw,980px)!important}}
 @media (max-width: 900px){.stories-hero{height:88svh!important;min-height:700px!important;max-height:840px!important}}
+
+/* Mobile homepage hero: show the portrait photo at its native 5:8 ratio and keep copy below the dogs' faces. */
+@media (max-width: 900px){
+#inicio{height:auto!important;aspect-ratio:5/8!important;min-height:0!important;max-height:none!important}
+#inicio>.main-hero-mob.kb{object-fit:cover!important;object-position:center center!important}
+#inicio>div[aria-hidden="true"]{background:linear-gradient(180deg,rgba(16,36,47,.08) 0%,rgba(16,36,47,0) 48%,rgba(16,36,47,.14) 62%,rgba(16,36,47,.78) 100%)!important}
+}
