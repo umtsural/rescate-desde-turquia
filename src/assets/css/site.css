@@ -166,10 +166,10 @@ html[lang="es"] .lang-es,html[lang="en"] .lang-en{font-weight:700;opacity:1;text
 
 /* On mobile, separate the full-ratio hero photo from its copy so the dogs' faces stay unobstructed. */
 @media (max-width: 900px){
-#inicio{height:auto!important;aspect-ratio:auto!important;min-height:0!important;max-height:none!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;padding:0!important}
+#inicio{height:auto!important;aspect-ratio:600/1280!important;min-height:min-content!important;max-height:none!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;padding:0!important}
 #inicio>.main-hero-mob.kb{position:relative!important;inset:auto!important;display:block!important;width:100%!important;height:auto!important;aspect-ratio:5/8!important;object-fit:cover!important;object-position:center center!important;flex:0 0 auto!important}
 #inicio>div[aria-hidden="true"]{inset:0 0 auto!important;height:160vw!important;z-index:1!important;background:linear-gradient(180deg,rgba(16,36,47,.12) 0%,rgba(16,36,47,0) 52%,rgba(16,36,47,.45) 100%)!important;pointer-events:none!important}
-#inicio>div:last-child{position:relative!important;z-index:2!important;width:100%!important;max-width:none!important;margin:0!important;padding:24px 20px 30px!important;background:#1F3B4D!important;color:#FAF8F2!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important;gap:18px!important}
+#inicio>div:last-child{position:relative!important;z-index:2!important;flex:1 0 auto;width:100%!important;max-width:none!important;margin:0!important;padding:24px 20px 30px!important;background:#1F3B4D!important;color:#FAF8F2!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important;gap:18px!important}
 #inicio>div:last-child>div{width:100%!important;gap:18px!important;align-items:flex-start!important}
 #inicio h1{max-width:100%!important}
 #inicio h1>span:first-child{font-size:clamp(58px,15vw,76px)!important}
